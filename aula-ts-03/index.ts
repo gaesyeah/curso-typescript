@@ -17,3 +17,5 @@ function showResult(result: number) {
       console.log(`The result is ${result} and it's even!`);
   }
 }
+
+showResult(multiply(1, 2));
