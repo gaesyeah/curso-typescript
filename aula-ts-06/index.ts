@@ -1,6 +1,6 @@
-//péssima pratica, verboso e inviavel para receber manutenção por conta escalabilidade e repetição de código
+//péssima pratica, verboso e inviavel para receber manutenção por conta escalabilidade e repetição de código. Foi feito da forma correta com TYPE no exercicio 8
 
-const game: {
+/* const game: {
   id: number | string,
   platform: {
       id: number | string,
@@ -45,4 +45,4 @@ function play(game: {
   console.log(game);
 }
 
-console.log(play(games[0]));
+console.log(play(games[0])); */
