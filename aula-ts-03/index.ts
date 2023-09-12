@@ -1,4 +1,4 @@
-function multiply(num1: number, num2: number) {
+/* function multiply(num1: number, num2: number) {
   return num1 * num2;
 }
 
@@ -18,4 +18,4 @@ function showResult(result: number) {
   }
 }
 
-showResult(multiply(1, 2));
+showResult(multiply(1, 2)); */
