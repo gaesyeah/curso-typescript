@@ -1,4 +1,4 @@
-//péssima pratica, verboso e inviavel para receber manutenção por conta escalabilidade e repetição de código, o exercicio 07 resolve isso
+//péssima pratica, verboso e inviavel para receber manutenção por conta escalabilidade e repetição de código
 
 const game: {
   id: number | string,
