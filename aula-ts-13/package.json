@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node dist/index.js",
     "dev": "nodemon src/index.ts"
   },
   "keywords": [],
@@ -14,6 +16,7 @@
     "@types/node": "^18.16.3",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.7",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.4"
   },
