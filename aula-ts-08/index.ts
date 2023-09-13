@@ -1,4 +1,4 @@
-import { Game } from "./protocols/users.protocols";
+import { Game } from "./protocols/games.protocols";
 
 const game = {
   id: 1,
