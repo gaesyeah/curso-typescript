@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { schemaValidation } from "middlewares/schemaValidation.middleware";
-import { musicSchema } from "schemas/music.schemas";
 import musicController from "../controllers/music-controller";
+import { schemaValidation } from "../middlewares/schemaValidation.middleware";
+import { musicSchema } from "../schemas/music.schemas";
 
 const musicRouter = Router();
 
