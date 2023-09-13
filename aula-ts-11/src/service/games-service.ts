@@ -10,12 +10,12 @@ async function createGame(game: createGameType) {
     throw { message: "Game already exists" }
   }
 
-  gamesRepository.createGame(game);
+  return gamesRepository.createGame(game);
 }
 
-async function gameAlreadyExists(game: createGameType) {
-  const result = await gamesRepository.getGameByTitleAndPlatform(game);
-  return result.rowCount > 0 ? true : false;
+async function gameAlreadyExists(game: createGameType): Promise<boolean> {
+  const { rowCount } = await gamesRepository.getGameByTitleAndPlatform(game);
+  return rowCount > 0 ? true : false;
 }
 
 const gamesService = {

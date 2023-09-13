@@ -5,3 +5,12 @@ export type Game = {
 }
 
 export type createGameType = Omit<Game, 'id'>;
+
+export type rowCountType = {
+  rowCount: number
+};
+
+type queryResult = {
+  rows: Game[] | createGameType[],
+  rowCount: number
+};
